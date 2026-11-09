@@ -1,0 +1,83 @@
+.contact-section {
+     padding: 5rem 1rem;
+     background: #140a2b; 
+     color: white;
+}
+     
+.contact-container { 
+    max-width: 1000px; 
+    margin: 0 auto; 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 3rem; 
+}
+
+.contact-info { 
+    flex: 1; 
+    min-width: 300px; 
+}
+
+.title { 
+    font-size: 2.5rem; 
+    margin-bottom: 1rem;
+    color: #fff; 
+    text-transform: uppercase; 
+}
+
+.subtitle { 
+    color: #9ca3af; 
+    margin-bottom: 2rem; 
+}
+
+.contact-links { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 1.5rem; 
+}
+
+.link-item { 
+    display: flex; 
+    align-items: center; 
+    gap: 1rem; 
+    color: #d1d5db; 
+    text-decoration: none; }
+
+.form-wrapper { 
+    flex: 1; 
+    min-width: 300px; 
+    background: #1c0f38; 
+    padding: 2rem; 
+    border-radius: 1rem; 
+    border: 1px solid #3b0764; 
+}
+
+.contact-form { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 1rem; 
+}
+
+.contact-form input, .contact-form textarea { 
+    padding: 1rem; 
+    background: #110724; 
+    border: 1px solid #3b0764; 
+    color: white; 
+    border-radius: 0.5rem; 
+}
+
+.contact-form button { 
+    background: #9333ea; 
+    color: white; 
+    padding: 1rem; 
+    border-radius: 0.5rem; 
+    font-weight: bold; 
+    cursor: pointer; 
+    border: none; 
+}
+
+
+.success-message { 
+    text-align: center; 
+    padding: 2rem; 
+    color: #4ade80; 
+}

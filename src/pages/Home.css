@@ -1,0 +1,11 @@
+
+.avatar-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h1, h2, h3, p {
+  transition: all 0.3s ease;
+}
